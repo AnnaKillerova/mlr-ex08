@@ -1,0 +1,466 @@
+[
+ {
+  "variant": "B1 baseline LeafNetBN+aug",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7581,
+  "cam": 0.5806,
+  "hist": 0.5583
+ },
+ {
+  "variant": "B1 baseline LeafNetBN+aug",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6935,
+  "cam": 0.5161,
+  "hist": 0.4083
+ },
+ {
+  "variant": "B1 baseline LeafNetBN+aug",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7581,
+  "cam": 0.5806,
+  "hist": 0.4333
+ },
+ {
+  "variant": "B1 + ColorJitter",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7258,
+  "cam": 0.7419,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B1 + ColorJitter",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6774,
+  "cam": 0.6774,
+  "hist": 0.3417
+ },
+ {
+  "variant": "B1 + ColorJitter",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7742,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B1 + dropout 0.25",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.5968,
+  "hist": 0.55
+ },
+ {
+  "variant": "B1 + dropout 0.25",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6452,
+  "cam": 0.5161,
+  "hist": 0.4333
+ },
+ {
+  "variant": "B1 + dropout 0.25",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.6452,
+  "cam": 0.5645,
+  "hist": 0.5
+ },
+ {
+  "variant": "B1 + global avg pooling",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.5323,
+  "cam": 0.4516,
+  "hist": 0.45
+ },
+ {
+  "variant": "B1 + global avg pooling",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6613,
+  "cam": 0.4355,
+  "hist": 0.4
+ },
+ {
+  "variant": "B1 + global avg pooling",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.6774,
+  "cam": 0.5806,
+  "hist": 0.425
+ },
+ {
+  "variant": "B1 + AdamW wd 0.01",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.5806,
+  "hist": 0.575
+ },
+ {
+  "variant": "B1 + AdamW wd 0.01",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6935,
+  "cam": 0.5645,
+  "hist": 0.3917
+ },
+ {
+  "variant": "B1 + AdamW wd 0.01",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.5484,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B1 + label smoothing 0.1",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.5484,
+  "hist": 0.5417
+ },
+ {
+  "variant": "B1 + label smoothing 0.1",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6935,
+  "cam": 0.4839,
+  "hist": 0.45
+ },
+ {
+  "variant": "B1 + label smoothing 0.1",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.5968,
+  "hist": 0.4417
+ },
+ {
+  "variant": "B1 + best epoch kept",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7581,
+  "cam": 0.5323,
+  "hist": 0.5333
+ },
+ {
+  "variant": "B1 + best epoch kept",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6935,
+  "cam": 0.5161,
+  "hist": 0.4083
+ },
+ {
+  "variant": "B1 + best epoch kept",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7581,
+  "cam": 0.6452,
+  "hist": 0.4917
+ },
+ {
+  "variant": "B1 + cosine + 30 epochs",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.5806,
+  "hist": 0.525
+ },
+ {
+  "variant": "B1 + cosine + 30 epochs",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6613,
+  "cam": 0.5645,
+  "hist": 0.4083
+ },
+ {
+  "variant": "B1 + cosine + 30 epochs",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.5645,
+  "hist": 0.4417
+ },
+ {
+  "variant": "B2 baseline MobileNet finetuned",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.6613,
+  "hist": 0.5417
+ },
+ {
+  "variant": "B2 baseline MobileNet finetuned",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.6613,
+  "hist": 0.5167
+ },
+ {
+  "variant": "B2 baseline MobileNet finetuned",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7903,
+  "hist": 0.6083
+ },
+ {
+  "variant": "B2 + frozen head only",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.7258,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B2 + frozen head only",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7581,
+  "hist": 0.425
+ },
+ {
+  "variant": "B2 + frozen head only",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7903,
+  "hist": 0.4417
+ },
+ {
+  "variant": "B2 + augmentation",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.6774,
+  "hist": 0.4833
+ },
+ {
+  "variant": "B2 + augmentation",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.7742,
+  "hist": 0.5
+ },
+ {
+  "variant": "B2 + augmentation",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.8065,
+  "cam": 0.7903,
+  "hist": 0.5583
+ },
+ {
+  "variant": "B2 + cosine + 30 epochs",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.8226,
+  "cam": 0.7581,
+  "hist": 0.5083
+ },
+ {
+  "variant": "B2 + cosine + 30 epochs",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.8226,
+  "cam": 0.7581,
+  "hist": 0.6
+ },
+ {
+  "variant": "B2 + cosine + 30 epochs",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.871,
+  "cam": 0.7742,
+  "hist": 0.6417
+ },
+ {
+  "variant": "B2 + aug + cosine + 30 epochs",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.9194,
+  "cam": 0.7581,
+  "hist": 0.5333
+ },
+ {
+  "variant": "B2 + aug + cosine + 30 epochs",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7419,
+  "hist": 0.5917
+ },
+ {
+  "variant": "B2 + aug + cosine + 30 epochs",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.871,
+  "cam": 0.8226,
+  "hist": 0.525
+ },
+ {
+  "variant": "B1 + historical train",
+  "seed": 0,
+  "train": "original + historical",
+  "orig": 0.7581,
+  "cam": 0.629,
+  "hist": 0.825
+ },
+ {
+  "variant": "B1 + historical train",
+  "seed": 1,
+  "train": "original + historical",
+  "orig": 0.7903,
+  "cam": 0.629,
+  "hist": 0.8083
+ },
+ {
+  "variant": "B1 + historical train",
+  "seed": 2,
+  "train": "original + historical",
+  "orig": 0.5968,
+  "cam": 0.629,
+  "hist": 0.7917
+ },
+ {
+  "variant": "B2+aug + historical train",
+  "seed": 0,
+  "train": "original + historical",
+  "orig": 0.7581,
+  "cam": 0.7419,
+  "hist": 0.8917
+ },
+ {
+  "variant": "B2+aug + historical train",
+  "seed": 1,
+  "train": "original + historical",
+  "orig": 0.6452,
+  "cam": 0.629,
+  "hist": 0.8083
+ },
+ {
+  "variant": "B2+aug + historical train",
+  "seed": 2,
+  "train": "original + historical",
+  "orig": 0.7258,
+  "cam": 0.7258,
+  "hist": 0.875
+ },
+ {
+  "variant": "B1 + ColorJitter + cosine + 30 ep",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.8065,
+  "cam": 0.7097,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B1 + ColorJitter + cosine + 30 ep",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.7258,
+  "hist": 0.4
+ },
+ {
+  "variant": "B1 + ColorJitter + cosine + 30 ep",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7258,
+  "hist": 0.425
+ },
+ {
+  "variant": "B1 + ColorJitter + best epoch kept",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.8226,
+  "cam": 0.6452,
+  "hist": 0.4417
+ },
+ {
+  "variant": "B1 + ColorJitter + best epoch kept",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7742,
+  "cam": 0.7097,
+  "hist": 0.3667
+ },
+ {
+  "variant": "B1 + ColorJitter + best epoch kept",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7742,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B2 + frozen head + augmentation",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.7419,
+  "cam": 0.7742,
+  "hist": 0.4167
+ },
+ {
+  "variant": "B2 + frozen head + augmentation",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.6774,
+  "cam": 0.7581,
+  "hist": 0.4333
+ },
+ {
+  "variant": "B2 + frozen head + augmentation",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.7742,
+  "hist": 0.4333
+ },
+ {
+  "variant": "B2 + ColorJitter + cosine + 30 ep",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.8387,
+  "cam": 0.8065,
+  "hist": 0.5167
+ },
+ {
+  "variant": "B2 + ColorJitter + cosine + 30 ep",
+  "seed": 1,
+  "train": "original train",
+  "orig": 0.7903,
+  "cam": 0.8065,
+  "hist": 0.55
+ },
+ {
+  "variant": "B2 + ColorJitter + cosine + 30 ep",
+  "seed": 2,
+  "train": "original train",
+  "orig": 0.9032,
+  "cam": 0.8387,
+  "hist": 0.5083
+ },
+ {
+  "variant": "FINAL B2 + ColorJitter + cosine + 30 ep",
+  "seed": 0,
+  "train": "original train",
+  "orig": 0.8387,
+  "cam": 0.8065,
+  "hist": 0.5167
+ }
+]

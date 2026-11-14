@@ -1,2 +1,16 @@
-# course hand-in folder (contains the original check files + a copy of the model)
+# datasets - group and historical leaf photos, never push
+data/
+ex08_leaves_images/
+
+# python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# helper folders used to build the notebook (cell sources, runner, captured outputs)
+ex08-tools/
+task4_cells/
+
+# built artifacts kept only locally (the canonical model + model_info live in the repo root)
+task4_export/
 ex08_for_agent/
